@@ -13,7 +13,7 @@ class FlutterPlugin {
     return version;
   }
 
-  static Future<Null> showToas(String message, ToastLong long) async {
+  static Future<Null> showToast(String message, ToastLong long) async {
     try {
       Map<String, dynamic> map = new Map();
       map.putIfAbsent("message", () => message);

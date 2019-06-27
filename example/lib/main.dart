@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             children: <Widget>[
               RaisedButton(child: Text('Press'), onPressed: () {
-                FlutterPlugin.showToas("Diego Alves Openheimer", ToastLong.SHORT);
+                FlutterPlugin.showToast("Diego Alves Openheimer", ToastLong.SHORT);
               },),
               Text('Running on: $_platformVersion\n')
             ],
